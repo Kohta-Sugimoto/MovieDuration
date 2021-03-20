@@ -31,8 +31,8 @@ sudo pip3 install google-api-python-client
 Youtube Data APIの登録に関しては[参考サイト](https://qiita.com/g-k/items/7c98efe21257afac70e9)を参考にしてください。
 取得したAPIキーをプログラムにコピペしてください。  
 ### 11行目
-ChannelIDはダウンロードしたいチャンネルのものを入力してください。  
+ChannelIDは時間計測したいチャンネルのものを入力してください。  
 ブラウザでチャンネルのページまで飛んで、URLにChannelIDが載っています。
 ![URL](https://github.com/Kohta-Sugimoto/YoutubeDownload/blob/main/youtubeURL.PNG)
 ### 12~15行目
-ダウンロードする動画のアップロード年月日を指定します。
+時間計測する動画のアップロード年月日を指定します。
