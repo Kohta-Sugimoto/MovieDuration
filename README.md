@@ -2,7 +2,10 @@
 
 # 概要
 Youtubeのチャンネルの動画時間を合計するプログラムです。  
-合計する動画は、アップロード期間の指定ができます。
+合計する動画は、アップロード期間の指定ができます。  
+
+Youtubeを見ていると、この人何時間配信しているんだろうと思うこともあると思います。  
+そんな時に役立つプログラムです。
 
 [参考サイト](https://qiita.com/g-k/items/7c98efe21257afac70e9)を参考にしました。
 
@@ -14,7 +17,7 @@ Youtubeのチャンネルの動画時間を合計するプログラムです。
 ## Description
 以下のコマンドでプログラム(youtubeGetMovie.py)を実行して、動画をダウンロードします。
 ```bash
-sudo python3 youtubeGetMovie.py
+sudo python3 youtubeDuration.py
 ```
 
 ## Setting
