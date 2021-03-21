@@ -129,7 +129,8 @@ for result in searches:
         if video_result["kind"] == "youtube#video":
             videos.append([video_result["snippet"]["title"],video_result["statistics"]["viewCount"],video_result["statistics"]["likeCount"],video_result["statistics"]["dislikeCount"],video_result["statistics"]["commentCount"],video_result["snippet"]["publishedAt"],video_result["id"]])  
         #時間計測する処理
-        sumDuration(video_result["contentDetails"]["duration"])
+        if uploadDateCheck(video_result["snippet"]["publishedAt"]):
+            sumDuration(video_result["contentDetails"]["duration"])
 
 
 optimizeDuration()
