@@ -16,7 +16,7 @@ Youtubeを見ていると、この人何時間配信しているんだろうと�
 
 
 ## Description
-以下のコマンドでプログラム(youtubeGetMovie.py)を実行して、動画をダウンロードします。
+以下のコマンドでプログラム(youtubeDuration.py)を実行して、動画をダウンロードします。
 ```bash
 sudo python3 youtubeDuration.py
 ```
